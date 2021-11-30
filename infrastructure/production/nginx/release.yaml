@@ -6,6 +6,7 @@ spec:
   releaseName: nginx-ingress-controller
   chart:
     spec:
+      targetNamespace: non-existent-namespace
       chart: nginx-ingress-controller
       sourceRef:
         kind: HelmRepository
